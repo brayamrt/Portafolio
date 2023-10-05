@@ -11,14 +11,14 @@ const explorerItems = [
     icon: 'react_icon.svg',
   },
   {
-    name: 'Acerca de mi.html',
+    name: 'About.jsx',
     path: '/about',
-    icon: 'html_icon.svg',
+    icon: 'react_icon.svg',
   },
   {
-    name: 'Contacto.html',
+    name: 'Contacto.jsx',
     path: '/contact',
-    icon: 'html_icon.svg',
+    icon: 'react_icon.svg',
   },
   {
     name: 'Proyectos.jsx',
