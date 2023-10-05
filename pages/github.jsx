@@ -78,16 +78,20 @@ export async function getStaticProps() {
   );
   let repos = await repoRes.json();
   repos = repos
-    .sort((a, b) => {
-      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC')) {
-        return b
-      }
-      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC')) {
-        return a
-      }
-
-      return (b.stargazers_count + b.watchers_count + b.forks_count) - (a.stargazers_count + a.watchers_count + a.forks_count)
-    })
+  .sort((a, b) => {
+    const aIsSpecial = a.html_url.includes('EESTech') || a.html_url.includes('COSC');
+    const bIsSpecial = b.html_url.includes('EESTech') || b.html_url.includes('COSC');
+  
+    if (aIsSpecial && !bIsSpecial) {
+      return 1;
+    } else if (!aIsSpecial && bIsSpecial) {
+      return -1;
+    }
+  
+    return (b.stargazers_count + b.watchers_count + b.forks_count) - (a.stargazers_count + a.watchers_count + a.forks_count);
+  })
+  
+  
     .slice(0, 8);
 
   return {

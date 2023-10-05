@@ -12,14 +12,14 @@ const Titlebar = () => {
         className={styles.icon}
       />
       <div className={styles.items}>
-        <p>File</p>
-        <p>Edit</p>
-        <p>Selection</p>
-        <p>View</p>
-        <p>Go</p>
-        <p>Run</p>
+        <p>Archivo</p>
+        <p>Editar</p>
+        <p>Selección</p>
+        <p>Ver</p>
+        <p>Ir</p>
+        <p>Ejecutar</p>
         <p>Terminal</p>
-        <p>Help</p>
+        <p>Ayuda</p>
       </div>
       <p className={styles.title}>Brayam Ricardo - Portafolio</p>
       <div className={styles.windowButtons}>

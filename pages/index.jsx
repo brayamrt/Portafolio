@@ -1,5 +1,4 @@
 import Link from 'next/link';
-// import Illustration from '../components/Illustration';
 import Image from "next/image";
 import styles from '../styles/HomePage.module.css';
 
@@ -42,14 +41,10 @@ export default function HomePage() {
             <Link href="/about">
               <button className={styles.button}>Acerca de mi</button>
             </Link>
-            {/* <Link href="/projects">
-              <button className={styles.button}>View Projects</button>
-            </Link> */}
             <Link href="/contact">
               <button className={styles.outlined}>Contacto</button>
             </Link>
           </div>
-          {/* <Illustration className={styles.illustration} /> */}
           <div className={styles.right}>
             <div className={styles.picture_boader}>
               <Image
@@ -57,7 +52,7 @@ export default function HomePage() {
                 src="/me.jpeg"
                 width={300}
                 height={290}
-                alt="Kostas' Picture"
+                alt="Brayam' Picture"
               />
             </div>
 
@@ -70,6 +65,6 @@ export default function HomePage() {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Home' },
+    props: { title: 'Inicio' },
   };
 }

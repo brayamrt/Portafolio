@@ -8,24 +8,6 @@ const ContactPage = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  // const submitForm = async (e) => {
-  //   e.preventDefault();
-  //   console.log(process.env.NEXT_PUBLIC_API_URL);
-  //   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
-  //     method: 'POST',
-  //     body: JSON.stringify({ name, email, subject, message }),
-  //   });
-  //   if (res.ok) {
-  //     alert('Your response has been received!');
-  //     setName('');
-  //     setEmail('');
-  //     setSubject('');
-  //     setMessage('');
-  //   } else {
-  //     alert('There was an error. Please try again in a while.');
-  //   }
-  // };
-
   return (
     <div className={styles.container}>
       <div>

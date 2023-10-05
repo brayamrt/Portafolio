@@ -18,20 +18,16 @@ const explorerItems = [
   {
     name: 'Contacto.html',
     path: '/contact',
-    icon: 'yml_icon.svg',
+    icon: 'html_icon.svg',
   },
   {
-    name: 'Proyectos.jxs',
+    name: 'Proyectos.jsx',
     path: '/projects',
-    icon: 'py_icon.svg',
+    icon: 'react_icon.svg',
   },
-  // {
-  //   name: 'articles.json',
-  //   path: '/articles',
-  //   icon: 'json_icon.svg',
-  // },
+  
   {
-    name: 'github.md',
+    name: 'GitHub.md',
     path: '/github',
     icon: 'markdown_icon.svg',
   },
@@ -42,7 +38,7 @@ const Explorer = () => {
 
   return (
     <div className={styles.explorer}>
-      <p className={styles.title}>Explorar</p>
+      <p className={styles.title}>Explorador</p>
       <div>
         <input
           type="checkbox"

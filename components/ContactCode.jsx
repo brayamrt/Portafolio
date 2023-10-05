@@ -17,7 +17,7 @@ const contactItems = [
     href: 'https://github.com/brayamrt',
   },
   {
-    social: 'Website',
+    social: 'Sitio Web',
     link: 'bricardo.tech',
     href: 'https://bricardo.tech',
   },
