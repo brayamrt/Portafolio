@@ -15,7 +15,7 @@ const GithubPage = ({ repos, user }) => {
 
   return (
     <>
-      <a href="https://github.com/drkostas" target="_blank" rel="noopener" className={styles.no_color}>
+      <a href="https://github.com/brayamrt" target="_blank" rel="noopener" className={styles.no_color}>
         <div className={styles.user}>
           <div>
             <Image
@@ -49,7 +49,7 @@ const GithubPage = ({ repos, user }) => {
             username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
             theme={theme}
             hideColorLegend
-          // hideMonthLabels
+         
           />
         </div>
       </center>
