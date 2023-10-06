@@ -10,7 +10,7 @@ const CustomHead = ({ title }) => {
       />
       <meta
         name="keywords"
-        content="kostas georgiou, kostas, georgiou, data scientist portfolio, machine learning engineer, kostas georgiou portfolio, vscode-portfolio"
+        content="Web developer, javascript,next.js,brayam ricardo"
       />
       <meta property="og:title" content="Brayam Ricardo Portafolio." />
       <meta
@@ -18,7 +18,7 @@ const CustomHead = ({ title }) => {
         content="Brayam Ricardo Portafolio."
       />
       <meta property="og:image" content="https://imgur.com/YTNNknY.png" />
-      <meta property="og:url" content="https://gkos.tech" />
+      <meta property="og:url" content="https://bdricardo.tech" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
