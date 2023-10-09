@@ -18,7 +18,7 @@ const CustomHead = ({ title }) => {
         content="Brayam Ricardo Portafolio."
       />
       <meta property="og:image" content="" />
-      <meta property="og:url" content="https://bdricardo.tech" />
+      <meta property="og:url" content="https://portafolio-eight-psi.vercel.app/" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
