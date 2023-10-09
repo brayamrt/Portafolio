@@ -4,7 +4,9 @@ export const getMiscProjects = () => {
   return data;
 };
 
-export default (req, res) => {
+const handler = (req, res) => {
   const projects = getMiscProjects();
   res.json(projects);
 };
+
+export default handler;
