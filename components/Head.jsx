@@ -17,7 +17,7 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="Brayam Ricardo Portafolio."
       />
-      <meta property="og:image" content="https://imgur.com/YTNNknY.png" />
+      <meta property="og:image" content="" />
       <meta property="og:url" content="https://bdricardo.tech" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>

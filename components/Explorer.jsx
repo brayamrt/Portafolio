@@ -25,12 +25,6 @@ const explorerItems = [
     path: '/projects',
     icon: 'react_icon.svg',
   },
-  
-  {
-    name: 'GitHub.md',
-    path: '/github',
-    icon: 'markdown_icon.svg',
-  },
 ];
 
 const Explorer = () => {
