@@ -32,18 +32,21 @@ export default function HomePage() {
                       Next.js
                     </span>
                     <span key='Git' className='Computer-Vision'>
+                      Astro
+                    </span>
+                    <span key='Git' className='Research'>
                       Git
                     </span>
-                    <span key='HTML' className='Research'>
+                    <span key='HTML' className='PyTorch'>
                       HTML
                     </span>
-                    <span key='CSS' className='PyTorch'>
+                    <span key='CSS' className='Apache-Spark'>
                       CSS
                     </span>
-                    <span key='MySQL' className='Apache-Spark'>
+                    <span key='MySQL' className='SQL'>
                       MySQL
                     </span>
-                    <span key='MySQL' className='Apache-Spark'>
+                    <span key='MySQL' className='Computer-Vision'>
                       NoSQL
                     </span>
                   </div>
