@@ -8,9 +8,9 @@ const ProjectCard = ({ project }) => {
         <Image
           src={project.image}
           alt={project.name}
-          width={500} // Ajusta según tus necesidades
-          height={170} // Ajusta según tus necesidades
-          style={{ objectFit: 'cover' }} // Utiliza objectFit para ajustar la imagen
+          width={500} 
+          height={170} 
+          style={{ objectFit: 'cover' }} 
         />
       </div>
       <div className={styles.content}>

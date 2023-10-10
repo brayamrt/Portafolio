@@ -327,14 +327,14 @@
 .Crawler:hover {
   background: rgba(0, 0, 0, 0.25);
 }
-.RaspberryPI {
-  border: 0.1rem solid rgb(253, 15, 67);
+.JavaScript {
+  border: 0.1rem solid rgb(229, 253, 15);
 }
 .RaspberryPI:hover {
   background: rgba(253, 15, 67, 0.25);
 }
-.Spotify {
-  border: 0.1rem solid rgb(0, 121, 16);
+.HTML {
+  border: 0.1rem solid rgb(247, 17, 17);
 }
 .Spotify:hover {
   background: rgba(0, 121, 16, 0.25);

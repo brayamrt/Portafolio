@@ -1,34 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Prueba 1",
+    "name": "Clon de Spotify",
     "image": "https://imgur.com/Ek1p3sE.png",
-    "description": "Esto es una prueba",
-    "tags": ["Hola"],
-    "source_code": "enlace de git"
+    "description": "Con animaciones y persistencia de estado.",
+    "tags": ["JavaScript","HTML","CSS","Astro","Tailwind"],
+    "source_code": "https://github.com/brayamrt/Spotify-clon.git"
   },
   {
     "id": 2,
-    "name": "Prueba 2",
-    "image": "https://imgur.com/jjPQmxf.png",
-    "description": "Esto es una prueba",
-    "tags": ["Hola2"],
+    "name": "Proximamente",
+    "image": "",
+    "description": "Proximamente",
+    "tags": ["Proximamente"],
     "source_code": "enlace de git"
   },
   {
     "id": 3,
-    "name": "Prueba 3",
-    "image": "https://imgur.com/GP9wwc0.png",
-    "description": "Esto es una prueba",
-    "tags": ["Hola3"],
+    "name": "Proximamente",
+    "image": "",
+    "description": "Proximamente",
+    "tags": ["Proximamente"],
     "source_code": "enlace de git"
   },
   {
     "id": 4,
-    "name": "Prueba 4",
-    "image": "https://imgur.com/GZAcsg4.png",
-    "description": "Esto es una prueba",
-    "tags": ["Hola4"],
+    "name": "Proximamente",
+    "image": "",
+    "description": "Proximamente",
+    "tags": ["Proximamente"],
     "source_code": "enlace de git"
 }
 ]
