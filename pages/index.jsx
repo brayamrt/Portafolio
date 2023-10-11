@@ -19,34 +19,34 @@ export default function HomePage() {
                 <div className={styles.content}>
                   <h4>Habilidades</h4>
                   <div className={styles.tags}>
-                    <span key=' JavaScript' className='Research'>
+                    <span key=' JavaScript' className='Verde'>
                       JavaScript
                     </span>
-                    <span key='React' className='PyTorch'>
+                    <span key='React' className='Rojo'>
                       React
                     </span>
-                    <span key='Node.js' className='Apache-Spark'>
+                    <span key='Node.js' className='Lila'>
                       Node.js
                     </span>
-                    <span key='Next.js' className='SQL'>
+                    <span key='Next.js' className='Rosa'>
                       Next.js
                     </span>
-                    <span key='Git' className='Computer-Vision'>
+                    <span key='Git' className='Amarillo'>
                       Astro
                     </span>
-                    <span key='Git' className='Research'>
+                    <span key='Git' className='Verde'>
                       Git
                     </span>
-                    <span key='HTML' className='PyTorch'>
+                    <span key='HTML' className='Rojo'>
                       HTML
                     </span>
-                    <span key='CSS' className='Apache-Spark'>
+                    <span key='CSS' className='Lila'>
                       CSS
                     </span>
-                    <span key='MySQL' className='SQL'>
+                    <span key='MySQL' className='Rosa'>
                       MySQL
                     </span>
-                    <span key='MySQL' className='Computer-Vision'>
+                    <span key='MySQL' className='Amarillo'>
                       NoSQL
                     </span>
                   </div>

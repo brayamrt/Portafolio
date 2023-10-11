@@ -1,19 +1,19 @@
 .projectCard {
-  max-width: 500px; /* Establece el ancho máximo */
-  width: 100%; /* Ajusta al ancho deseado */
-  margin: 0 auto; /* Centra el contenedor */
+  max-width: 500px; 
+  width: 100%; 
+  margin: 0 auto; 
 }
 
 .imageContainer {
   position: relative;
   width: 100%;
-  height: 170px; /* Ajusta la altura según sea necesario */
+  height: 170px; 
   overflow: hidden;
 }
 
 .imageContainer img {
   object-fit: cover;
-  width: 100%; /* Ajusta al ancho del contenedor */
+  width: 100%; 
   height: 100%;
 }
 

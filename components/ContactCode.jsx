@@ -18,7 +18,7 @@ const contactItems = [
   },
   {
     social: 'Sitio Web',
-    link: 'bricardo.tech',
+    link: 'portafolio-eight-psi.vercel.app/',
     href: 'https://portafolio-eight-psi.vercel.app/',
   },
 ];

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Clon de Spotify",
+    "name": "CLON DE SPOTIFY",
     "image": "https://imgur.com/Ek1p3sE.png",
     "description": "Con animaciones y persistencia de estado.",
     "tags": ["JavaScript","HTML","CSS","Astro","Tailwind"],
